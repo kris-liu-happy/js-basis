@@ -1,6 +1,6 @@
-防抖 触发就会等一段时间
+##防抖 触发就会等一段时间
 
-// 如模糊查询
+如模糊查询
 
 (1) 闭包 time 不会被清除保留下来
 
@@ -20,7 +20,7 @@ function debounce(fun, wait) {
 }
 ```
 
-// 节流 2 个时间差 大于 wait 才能被处罚
+##节流 2 个时间差 大于 wait 才能被处罚
 
 ```
 function throttle(fun, wait) {
